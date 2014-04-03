@@ -954,7 +954,7 @@ body {
 }
 
 .toppartss {
-    background: url(../img/44.png);
+    background: url(../img/3.png);
 }
 
 .toppartillustrations {
@@ -1205,6 +1205,14 @@ iframe {
 
 .flac {
     color: #e9bf92;
+}
+
+.displayinlineblock {
+    display: inline-block;
+}
+
+.subblock {
+    margin-left: 90px;
 }
 
 .objectpaddingtop {
@@ -1460,6 +1468,9 @@ ul li:hover ul {
     .margintopaboutimg {
         margin-top: 0;
         margin-bottom: 0px;
+    }
+    .subblock {
+        margin-left: 20px;
     }
 }
 
