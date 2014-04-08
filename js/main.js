@@ -1,5 +1,5 @@
 $(function(){
-     $('.logoimg').delay(500).animate({
+     $('.logoimg').delay(850).animate({
           opacity: 1
-     }, 2000)
+     }, 2100)
 });  
