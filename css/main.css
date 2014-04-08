@@ -623,26 +623,6 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -962,13 +942,14 @@ body {
 }
 
 .logoimg {
-    width: 49%;
+    width: 52%;
+    height: auto;
     margin: 0 auto;
     display: block;
     max-width: 915px;
     max-height: 497px;
     min-width: 450px;
-    padding-top: 50px;
+    padding-top: 20px;
     opacity: 0;
 }
 
@@ -1006,7 +987,6 @@ body {
 
 .splashtitle {
     text-align: center;
-    margin: 0 auto;
 }
 
 .forindexlogo {
@@ -1145,10 +1125,6 @@ li.words {
     font-size: 16px;
     width: 90%;
     font-weight: 300;
-}
-
-iframe {
-    overflow: hidden;
 }
 
 .left {
@@ -1314,7 +1290,15 @@ a .flac:hover {
 }
 
 .linkstyle {
+    color: #ff7634;
+}
 
+.linkstyle:hover {
+    color: #ffa934;
+}
+
+.overflowhidepls {
+    overflow-y:hidden;
 }
 
 /*--------------------------- MENU ---------------------------*/
