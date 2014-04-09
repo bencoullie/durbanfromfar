@@ -1415,6 +1415,26 @@ ul li:hover ul {
 
 /*--------------------------- MEDIA QUERIES ---------------------------*/
 
+@media (max-width: 575px) {
+    .percentt {
+        width: 100%;
+    }
+    .needsspace:hover {
+        margin-bottom: 100px;
+    }
+    .overflowhidepls {
+        overflow-y: auto;
+    }
+    .botofsubmenu {
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
 @media (max-width: 1140px) {
     .midpart {
         min-width: 480px;
@@ -1485,8 +1505,7 @@ ul li:hover ul {
     .tindent {
         margin-left: 20px;
     }
-}
-
-@media (max-width: 575px) {
-    
+    .overflowhideplsnotindex {
+        overflow-x:hidden;
+    }
 }
