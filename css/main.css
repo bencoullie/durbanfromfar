@@ -1307,10 +1307,10 @@ a .flac:hover {
     box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.65);
 }
 
-.navshadow2 {
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.12);
-    -moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.12);
-    box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.12);
+.navinnershadow {
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(50, 50, 50, 0.65);
+    -moz-box-shadow: inset    1px 4px 9px -6px rgba(50, 50, 50, 0.65);
+    box-shadow: inset         1px 4px 9px -6px rgba(50, 50, 50, 0.65);
 }
 
 /*--------------------------- MENU ---------------------------*/
@@ -1449,6 +1449,11 @@ ul li:hover ul {
         -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0);
         -moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0);
         box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0);
+    }
+    .navinnershadow {
+        -webkit-box-shadow: inset 1px 4px 9px -6px rgba(50, 50, 50, 0.0);
+        -moz-box-shadow: inset    1px 4px 9px -6px rgba(50, 50, 50, 0.0);
+        box-shadow: inset         1px 4px 9px -6px rgba(50, 50, 50, 0.0);
     }
 }
 
