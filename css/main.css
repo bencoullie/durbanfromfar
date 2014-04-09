@@ -917,12 +917,12 @@ a {
 }
 
 html {
-
+    height: 100%;
 }
 
 body {
     background-color: #FFF;
-
+    height: 100%;
 }
 
 .toppart {
