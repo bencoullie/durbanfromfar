@@ -1077,6 +1077,12 @@ hr {
     width: 100%;
 }
 
+.fullblock {
+    width: 100%;
+    padding: 1%;
+
+}
+
 .block {
     float: left;
     width: 50%;
@@ -1316,11 +1322,11 @@ a .flac:hover {
 }
 
 .blurimg1 {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.13s ease;
+    -moz-transition: all 0.13s ease;
+    -o-transition: all 0.13s ease;
+    -ms-transition: all 0.13s ease;
+    transition: all 0.13s ease;
 }
 
 .blurimg1:hover {
@@ -1332,19 +1338,19 @@ a .flac:hover {
 }
 
 .blurimg2 {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+    -webkit-transition: all 0.13s ease;
+    -moz-transition: all 0.13s ease;
+    -o-transition: all 0.13s ease;
+    -ms-transition: all 0.13s ease;
+    transition: all 0.13s ease;
 }
 
 .blurimg2:hover {
-    -webkit-filter: brightness(110%);
-    -moz-filter: brightness(110%);
-    -o-filter: brightness(110%);
-    -ms-filter: brightness(110%);
-    filter: brightness(110%);
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+    -o-filter: brightness(90%);
+    -ms-filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 .albumyear {
@@ -1353,12 +1359,25 @@ a .flac:hover {
     margin-top: 15px;
 }
 
+.item { 
+    width: 25%;
+}
+
+.item.w2 { 
+    width: 50%;
+    padding: 10px;
+}
+
+.cookiePolicy {
+    display: none;
+}
+
 /*--------------------------- MENU ---------------------------*/
 
 div.nav-link-holder{
     width: 100%;
     height: 100%;
-    padding: 15px 20px;
+    padding: 15px 5px;
     color: white;
 }
 
@@ -1457,12 +1476,11 @@ ul li ul {
   -transition: opacity 0.2s;
 }
 ul li ul li { 
-  background: rgba(255, 255, 255, 0.2); 
+  background: rgba(255, 255, 255, 0.1); 
   display: block; 
   color: #fff;
 }
-ul li ul li:hover { background: rgba(255, 255, 255, 0.4); }
-ul li ul li.darknav:hover { background: rgba(0, 0, 0, 0.1); }
+ul li ul li:hover { background: rgba(255, 255, 255, 0.2); }
 ul li:hover ul {
   display: block;
   opacity: 1;
@@ -1501,6 +1519,22 @@ ul li:hover ul {
         -webkit-box-shadow: inset 1px 4px 9px -6px rgba(50, 50, 50, 0.0);
         -moz-box-shadow: inset    1px 4px 9px -6px rgba(50, 50, 50, 0.0);
         box-shadow: inset         1px 4px 9px -6px rgba(50, 50, 50, 0.0);
+    }
+    .nav-link-holder .fa {
+        display:none;
+    }
+}
+
+@media (max-width: 780px) {
+    .bannernologo {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 961px) {
+    .item.w2 { 
+        width: 100%;
+        padding: 10px;
     }
 }
 
