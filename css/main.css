@@ -1384,6 +1384,18 @@ a .flac:hover {
 	width: 100%;
 }
 
+.fa-music {
+    font-size: 50px;
+    color: #e6e6e6;
+}
+
+.midplspls {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 29px;
+}
+
 /*--------------------------- MENU ---------------------------*/
 
 div.nav-link-holder{
