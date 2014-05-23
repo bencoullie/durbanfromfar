@@ -1,11 +1,11 @@
 $(function(){
-     $('.logoimg').delay(850).animate({
+     $('.logoimg').delay(900).animate({
           opacity: 1
-     }, 2100);
-     $('.logoimgillu').delay(250).animate({
+     }, 2150);
+     $('.logoimgillu').delay(1250).animate({
           opacity: 1
      }, 1000);
-     $('.comingsoon').delay(1250).animate({
+     $('.comingsoon').delay(2250).animate({
           opacity: 1
      }, 1000);
      $('#fontquickload').delay(1000).css('display', 'none');
