@@ -8,5 +8,6 @@ $(function(){
      $('.comingsoon').delay(1250).animate({
           opacity: 1
      }, 1000);
+     $('#fontquickload').delay(1000).css('display', 'none');
 });  
 
